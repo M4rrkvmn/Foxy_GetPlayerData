@@ -17,7 +17,7 @@ RegisterCommand(Config.Getjob["GetPlayerData"].CommandName, function (source,arg
 
     if GetjobIsAdmin(adminGroup) then  
     if xTarget then   
-        SendToDiscord(003024,''..GetPlayerName(source)..' [ID : '..xPlayer.source..']', 'Lekérte '..GetPlayerName(xTarget.source)..' [ID : '..xTarget.source..']')
+        SendToDiscord(003024,''..GetPlayerName(source)..' [ID : '..xPlayer.source..']', 'Lekérte '..GetPlayerName(xTarget.source)..' [ID : '..xTarget.source..'] adatait.')
 ESX.RegisterServerCallback('Foxy_GetPlayerData:sendData', function(source, cb)
     local xTarget = ESX.GetPlayerFromId(targetId)
     local data = {
