@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  background-color: #292828;
+  border-radius: 7.5px;
+  box-shadow: 0 0 0.250rem rgb(182,182,182);
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 180%;
+  color: #fff;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+    height: auto;
+  }
+}
+
+#Steamname {
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  top: 23.5%;
+  left: 30%;
+  font-size: 260%;
+  color: white;
+  text-align: center;
+}
+
+#main {
+  position: absolute;
+      width: 50%;
+      height: 44.4%;
+      top: 29.2%;
+      left: 24.2%;
+    background-color: rgba(33, 33, 33, 0.5);
+    padding: 1.25rem;
+    box-shadow: 0 0 0.250rem rgb(0, 0, 0);
+    border-radius: 7.5px;
+  }
